@@ -1,0 +1,39 @@
+@media(max-width: 840px) {
+    footer p {
+        font-size: 14px;
+    }
+    .principal {
+        padding-inline: 25px;
+    }
+}
+
+@media(max-width: 600px) {
+    .topico img {
+        width: 80vw;
+    }
+    
+    .principal {
+        padding-inline: 15px;
+    }
+}
+
+@media(max-width: 500px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        height: 170px;
+        gap: 10px;
+    }
+
+    .item {
+        font-size: 20px;
+    }
+
+    .topico h2 {
+        font-size: 40px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+}
