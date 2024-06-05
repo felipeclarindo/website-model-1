@@ -11,10 +11,6 @@
     .topico img {
         width: 80vw;
     }
-    
-    .principal {
-        padding-inline: 15px;
-    }
 }
 
 @media(max-width: 500px) {
@@ -25,15 +21,54 @@
         gap: 10px;
     }
 
+    .principal {
+        padding-inline: 30px
+    }
+
+    .principal h1 {
+        font-size: 50px;
+    }
+
     .item {
         font-size: 20px;
     }
 
     .topico h2 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    
+    .topico p {
+        font-size: 25px;
     }
 
     .logo img {
         width: 60px;
+    }
+}
+
+@media(max-width: 300px) {
+
+    .principal {
+        padding-inline: 15px
+    }
+
+    .principal h1 {
+        font-size: 40px;
+    }
+
+    .topico h2 {
+        font-size: 30px;
+    }
+
+    .topico p {
+        font-size: 20px;
+    }
+
+    .itens {
+        margin-top: 10px;
+    }
+
+    .item {
+        font-size: 15px;
     }
 }
